@@ -1,3 +1,3 @@
-import MultiItemCollection from 'ember-table/views/multi-item-collection';
+import MultiItemCollection from 'ember-table-legacy/views/multi-item-collection';
 
 export default MultiItemCollection;
