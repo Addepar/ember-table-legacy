@@ -1,3 +1,3 @@
-import HeaderCell from 'ember-table/views/header-cell';
+import HeaderCell from 'ember-table-legacy/views/header-cell';
 
 export default HeaderCell;

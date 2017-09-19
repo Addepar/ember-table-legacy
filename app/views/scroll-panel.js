@@ -1,3 +1,3 @@
-import ScrollPanel from 'ember-table/views/scroll-panel';
+import ScrollPanel from 'ember-table-legacy/views/scroll-panel';
 
 export default ScrollPanel;
