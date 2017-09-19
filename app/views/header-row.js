@@ -1,3 +1,3 @@
-import HeaderRow from 'ember-table/views/header-row';
+import HeaderRow from 'ember-table-legacy/views/header-row';
 
 export default HeaderRow;
