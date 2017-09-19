@@ -1,3 +1,3 @@
-import LazyTableBlock from 'ember-table/views/lazy-table-block';
+import LazyTableBlock from 'ember-table-legacy/views/lazy-table-block';
 
 export default LazyTableBlock;

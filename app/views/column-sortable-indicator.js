@@ -1,3 +1,3 @@
-import ColumnSortableIndicator from 'ember-table/views/column-sortable-indicator';
+import ColumnSortableIndicator from 'ember-table-legacy/views/column-sortable-indicator';
 
 export default ColumnSortableIndicator;

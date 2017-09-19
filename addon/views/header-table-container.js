@@ -1,7 +1,7 @@
 import Ember from 'ember';
-import TableContainer from 'ember-table/views/table-container';
-import ShowHorizontalScrollMixin from 'ember-table/mixins/show-horizontal-scroll';
-import RegisterTableComponentMixin from 'ember-table/mixins/register-table-component';
+import TableContainer from 'ember-table-legacy/views/table-container';
+import ShowHorizontalScrollMixin from 'ember-table-legacy/mixins/show-horizontal-scroll';
+import RegisterTableComponentMixin from 'ember-table-legacy/mixins/register-table-component';
 
 export default TableContainer.extend(
 ShowHorizontalScrollMixin, RegisterTableComponentMixin, {
