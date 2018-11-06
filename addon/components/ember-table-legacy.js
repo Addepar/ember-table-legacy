@@ -3,6 +3,7 @@ import StyleBindingsMixin from 'ember-table-legacy/mixins/style-bindings';
 import ResizeHandlerMixin from 'ember-table-legacy/mixins/resize-handler';
 import RowArrayController from 'ember-table-legacy/controllers/row-array';
 import Row from 'ember-table-legacy/controllers/row';
+import getViewById from 'ember-table-legacy/utils/get-view-by-id';
 
 export default Ember.Component.extend(
 StyleBindingsMixin, ResizeHandlerMixin, {
@@ -631,7 +632,7 @@ StyleBindingsMixin, ResizeHandlerMixin, {
 
   getRowForEvent: function(event) {
     var $rowView = Ember.$(event.target).parents('.ember-table-table-row');
-    var view = Ember.View.views[$rowView.attr('id')];
+    var view = getViewById(this, $rowView.attr('id'));
     if (view) {
       return view.get('row');
     }

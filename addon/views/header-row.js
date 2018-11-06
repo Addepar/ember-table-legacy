@@ -1,6 +1,7 @@
 import Ember from 'ember';
 import StyleBindingsMixin from 'ember-table-legacy/mixins/style-bindings';
 import RegisterTableComponentMixin from 'ember-table-legacy/mixins/register-table-component';
+import getViewById from 'ember-table-legacy/utils/get-view-by-id';
 
 // We hacked this. There is an inconsistency at the level in which we are
 // handling scroll event...
@@ -62,7 +63,7 @@ StyleBindingsMixin, RegisterTableComponentMixin, {
   onColumnSortDone: function(event, ui) {
     var newIndex = ui.item.index();
     this.$('> div').sortable('cancel');
-    var view = Ember.View.views[ui.item.attr('id')];
+    var view = getViewById(this, ui.item.attr('id'));
     var column = view.get('column');
     this.get('tableComponent').onColumnSort(column, newIndex);
     this.set('tableComponent._isShowingSortableIndicator', false);
