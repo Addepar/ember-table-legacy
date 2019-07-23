@@ -1,15 +1,17 @@
-# Ember Table [![Build Status](https://secure.travis-ci.org/Addepar/ember-table.svg?branch=master)](http://travis-ci.org/Addepar/ember-table)
+# Ember Table Legacy [![Build Status](https://secure.travis-ci.org/Addepar/ember-table-legacy.svg?branch=master)](http://travis-ci.org/Addepar/ember-table-legacy)
 
 A table built using [Ember.js](http://emberjs.com/) that lazily renders rows.
 
-Ember Table allows you to handle very large data sets by only rendering the
+Ember Table Legacy allows you to handle very large data sets by only rendering the
 rows that are being displayed. It is written as an ember component with an API
 that is easy to understand and extend.
 
+## Deprecation Notice
 
-## Demo and Documentation
-http://opensource.addepar.com/ember-table/
+This version of ember-table is _deprecated_ and is provided for compatibility reasons,
+to support apps that need to use v1 and v2 side-by-side.
 
+To use the modern version of Ember Table, see: https://github.com/Addepar/ember-table
 
 ## Getting Started
 

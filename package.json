@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "https://github.com/Addepar/ember-table",
+  "repository": "https://github.com/Addepar/ember-table-legacy",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -46,7 +46,6 @@
     "ember-cli-less": "1.5.3"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config",
-    "demoURL": "http://opensource.addepar.com/ember-table"
+    "configPath": "tests/dummy/config"
   }
 }
